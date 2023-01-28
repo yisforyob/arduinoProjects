@@ -1,7 +1,7 @@
 # arduionoProjects
 Arduino projects laboratory.
 
-##miniLabExersises
+## miniLabExersises
 Playing with sensors and circuits!
 
 ## environmentRobot
