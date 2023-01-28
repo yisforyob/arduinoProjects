@@ -1,4 +1,4 @@
-# arduionoProjects
+# arduinoProjects
 Arduino projects laboratory.
 
 ## miniLabExersises
