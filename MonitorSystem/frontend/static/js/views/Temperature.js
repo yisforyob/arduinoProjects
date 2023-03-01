@@ -7,7 +7,7 @@ export default class extends AbstractView{
     }
     async getHtml(){
         return 
-            <> 
+        `
             <h1> Welcome back, Dear User</h1>
             <p>
             Here is the current temperature of the room.
@@ -15,8 +15,8 @@ export default class extends AbstractView{
             <p>
                 <a href="/humidity" data-link> View Humidity</a>.
             </p>
-            </>
-        ;
+            
+        `;
         
 
     }
