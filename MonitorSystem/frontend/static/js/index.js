@@ -1,4 +1,4 @@
-import Temperature from "./views/Temperature";
+import Temperature from "./views/Temperature.js";
 
 const navigateTo = url =>{
     history.pushState(null, null, url);
