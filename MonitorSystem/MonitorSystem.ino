@@ -24,8 +24,7 @@
 
 
 const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
-const int ledPin1 =  9;
-const int ledPin2 =  7;
+const int ledPin1 =  9, ledPin2 =  7;
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 dht11 DHT11;
 
