@@ -1,4 +1,6 @@
 import Temperature from "./views/Temperature.js";
+import Humidity from "./views/Humidity.js";
+import AirQuality from "./views/AirQuality.js";
 
 const navigateTo = url =>{
     history.pushState(null, null, url);
@@ -8,8 +10,8 @@ const navigateTo = url =>{
 const router = async () => {
     const routes = [
         {path: "/", view: Temperature},
-        //{path: "/humidity", view: () => console.log("Viewing Humidity")},
-        ///{path: "/airquality", view: () => console.log("Viewing Air Quality")},
+        {path: "/humidity", view: Humidity},
+        {path: "/airquality", view: AirQuality},
     ];
 
     //Test each route for potential match 

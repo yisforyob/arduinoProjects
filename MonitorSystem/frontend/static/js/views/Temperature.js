@@ -6,14 +6,14 @@ export default class extends AbstractView{
         this.setTitle("Temperature");
     }
     async getHtml(){
-        return 
-        `
-            <h1> Welcome back, Dear User</h1>
+        return `
+            <h1> Welcome back, </h1>
             <p>
-            Here is the current temperature of the room.
+            Here is the current temperature of the room. The temperature around the servers have been pretty steady in the past hours.
             </p>
+            <h1> Current Temperature : 23 °C | 73.4 F </h1>
             <p>
-                <a href="/humidity" data-link> View Humidity</a>.
+               <a href="https://uottawa-my.sharepoint.com/personal/yngol051_uottawa_ca/Documents/Attachments/Graphique.xlsx?d=w8cec7c12b0c244baaadcf4ba34562b01&csf=1&web=1&e=CncQSF"> View your monthly data and the graphs of the past 7 days</a>
             </p>
             
         `;
