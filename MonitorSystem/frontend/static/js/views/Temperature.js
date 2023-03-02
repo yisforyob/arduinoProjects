@@ -7,7 +7,7 @@ export default class extends AbstractView{
     }
     async getHtml(){
         return `
-            <h1> Welcome back, </h1>
+            <h1> Temperature </h1>
             <p>
             Here is the current temperature of the room. The temperature around the servers have been pretty steady in the past hours.
             </p>
